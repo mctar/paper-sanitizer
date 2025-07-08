@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+paper_sanitizer.egg-info/PKG-INFO
+paper_sanitizer.egg-info/SOURCES.txt
+paper_sanitizer.egg-info/dependency_links.txt
+paper_sanitizer.egg-info/entry_points.txt
+paper_sanitizer.egg-info/requires.txt
+paper_sanitizer.egg-info/top_level.txt
+sanitizer/__init__.py
+sanitizer/cli.py

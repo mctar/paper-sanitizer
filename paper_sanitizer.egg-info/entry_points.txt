@@ -1,0 +1,2 @@
+[console_scripts]
+sanitize = sanitizer.cli:main
