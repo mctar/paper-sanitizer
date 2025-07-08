@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "CLI that strips prompt-injection triggers from academic papers"
 authors = [{ name = "Thordur Arnason", email = "thordur@gmail.com" }]
 requires-python = ">=3.9"
-dependencies = ["pdfminer.six>=20221105"]
+dependencies = [
+    "pdfminer.six>=20221105",
+    "pdfplumber>=0.11",
+    "pikepdf>=9.0"
+]
 
 [project.scripts]
 sanitize = "sanitizer.cli:main" 

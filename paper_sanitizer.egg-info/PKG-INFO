@@ -5,3 +5,5 @@ Summary: CLI that strips prompt-injection triggers from academic papers
 Author-email: Thordur Arnason <thordur@gmail.com>
 Requires-Python: >=3.9
 Requires-Dist: pdfminer.six>=20221105
+Requires-Dist: pdfplumber>=0.11
+Requires-Dist: pikepdf>=9.0
